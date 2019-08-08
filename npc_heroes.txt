@@ -11489,6 +11489,7 @@
 		"MovementSpeed"		"290"
 		"MovementTurnRate"		"0.50000"
 		"BoundsHullName"		"DOTA_HULL_SIZE_HERO"
+		"HealthBarOffset"		"170"		
 		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_clinkz.vsndevts"
 		"particle_folder"		"particles/units/heroes/hero_clinkz"
 		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_clinkz.vsndevts"
@@ -11561,12 +11562,27 @@
 			"6"
 			{
 				"SlotIndex"		"6"
-				"SlotName"		"taunt"
-				"SlotText"		"#LoadoutSlot_Taunt"
+				"SlotName"		"summon"
+				"SlotText"		"#LoadoutSlot_Clinkz_Army"
+				"TextureWidth"		"512"
+				"TextureHeight"		"512"
+				"MaxPolygonsLOD0"		"4000"
+				"MaxPolygonsLOD1"		"2000"
+				"no_import"		"1"
+				"GeneratesUnits"
+				{
+					"0" "npc_dota_clinkz_skeleton_archer"
+				}
 			}
 			"7"
 			{
 				"SlotIndex"		"7"
+				"SlotName"		"taunt"
+				"SlotText"		"#LoadoutSlot_Taunt"
+			}
+			"8"
+			{
+				"SlotIndex"		"8"
 				"SlotName"		"ambient_effects"
 				"SlotText"		"#LoadoutSlot_Ambient_Effects"
 				"DisplayInLoadout"		"0"
@@ -20227,6 +20243,7 @@
 		"MovementSpeed"		"280"
 		"MovementTurnRate"		"1.000000"
 		"BoundsHullName"		"DOTA_HULL_SIZE_HERO"
+		"HealthBarOffset"		"250"
 		"particle_folder"		"particles/units/heroes/hero_phoenix"
 		"GameSoundsFile"		"soundevents/game_sounds_heroes/game_sounds_phoenix.vsndevts"
 		"VoiceFile"		"soundevents/voscripts/game_sounds_vo_phoenix.vsndevts"
